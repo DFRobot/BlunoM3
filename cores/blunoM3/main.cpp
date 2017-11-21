@@ -36,6 +36,8 @@ int main( void )
 	init();
   TimingMillis=0;
 
+  
+  TIM_DeInit(TIM2);
 	//delay(1);
 
 #if defined(USBCON)
